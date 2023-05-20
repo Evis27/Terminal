@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/nav.css">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="images/bus.png" class="img-fluid" />
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Ticket
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Price</a></li>
+                  <li><a class="dropdown-item" href="towns.html">Towns</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Times</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" id="search item" placeholder="Search" aria-label="Search"
+                onkeyup="search()">
+            </form>
+          </div>
+        </div>
+      </nav>
+
+    </div>
+  </header>
+  <hr class="featurette-divider">
+  <div class="container">
+    <div class="row featurette" id="towns-name">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">Stacioni Shkoder-Tirane.
+          <hr><span class="text-body-secondary">Koha qe
+            i duhet autobusit te mberrije ne destinacion eshte 2 ore deri ne 2 ore 15 minuta.
+          </span>
+        </h2>
+        <p class="lead"><i>Ketu mund te gjeni edhe rrugen qe pershkruan autobusi per kete destinacion.</i>
+        </p>
+      </div>
+      <div class="col-md-5">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d762562.618470868!2d19.071821923339233!3d41.70411155807577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x134e00fb6e899b53%3A0x9061d3f9767c5b9a!2sTeatri%20Migjeni%2C%20Sheshi%20Demokracia%2C%20Shkod%C3%ABr%2C%20Albania!3m2!1d42.0687262!2d19.5113919!4m5!1s0x135031a48695ead1%3A0x8cd5e1773c642fa3!2sTerminali%20i%20Autobus%C3%ABve%20t%C3%AB%20Jugut%20%26%20Veriut%2C%20Kthesa%20e%20Kamz%C3%ABs%2C%20Kashar!3m2!1d41.3441646!2d19.776948!5e0!3m2!1sen!2s!4v1681052541383!5m2!1sen!2s"
+          width="100%" height="500px" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <rect width="100%" height="100%" fill="var(--bs-secondary-bg)" /><text x="50%" y="50%"
+          fill="var(--bs-secondary-color)" dy=".3em">500x500</text>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading fw-normal lh-1">Stacioni Shkoder-Lezhe.
+          <hr><span class="text-body-secondary">Koha qe
+            i duhet autobusit te mberrije ne destinacion eshte 41 minuta.</span>
+        </h2>
+        <p class="lead"><i>Ketu mund te gjeni edhe rrugen qe pershkruan autobusi per kete destinacion.</i></p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d189983.82577925178!2d19.403071668715715!3d41.925164675805426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x134e005bf998212f%3A0x7c0d3fbd64d1804e!2sShkod%C3%ABr%2C%20Albania!3m2!1d42.069298499999995!2d19.5032559!4m5!1s0x1351e0b7bb1fcd0b%3A0xedb353f464fc4b5f!2zTGV6aMOr!3m2!1d41.786072999999995!2d19.6460758!5e0!3m2!1sen!2s!4v1682186202905!5m2!1sen!2s"
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade" width="100%" height="500px" style="border:0;" allowfullscreen=""
+          loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <title>Placeholder</title>
+        <rect width="100%" height="100%" fill="var(--bs-secondary-bg)" /><text x="50%" y="50%"
+          fill="var(--bs-secondary-color)" dy=".3em">500x500</text>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">Stacioni Shkoder-Durres.
+          <hr><span class="text-body-secondary">Koha qe
+            i duhet autobusit te mberrije ne destinacion eshte 2 ore e 5 minuta deri ne 2 ore e 15 minuta.</span>
+        </h2>
+        <p class="lead"><i>Ketu mund te gjeni edhe rrugen qe pershkruan autobusi per kete destinacion.</i></p>
+      </div>
+      <div class="col-md-5">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d762667.2289249852!2d19.022665449771896!3d41.6952902066986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x134e00fb6e899b53%3A0x9061d3f9767c5b9a!2sTeatri%20Migjeni%2C%20Sheshi%20Demokracia%2C%20Shkod%C3%ABr!3m2!1d42.0687262!2d19.5113919!4m5!1s0x134fd97c5fbbbcc7%3A0x77f377eae6cd81ee!2zRHVycsOrcw!3m2!1d41.3245904!2d19.4564686!5e0!3m2!1sen!2s!4v1681052352485!5m2!1sen!2s"
+          width="100%" height="500px" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <title>Placeholder</title>
+        <rect width="100%" height="100%" fill="var(--bs-secondary-bg)" /><text x="50%" y="50%"
+          fill="var(--bs-secondary-color)" dy=".3em">500x500</text>
+      </div>
+    </div>
+
+
+    <hr class="featurette-divider">
+  </div>
+  <footer class="footer">
+    <div class="contain">
+      <div class="rom">
+        <div class="footer-col">
+          <h4>Agencies</h4>
+          <ul>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Our services</a></li>
+            <li><a href="privacy.html">Privacy-policy</a></li>
+            <li><a href="#">Affiliate agencies</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Get help</h4>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Destination</a></li>
+            <li><a href="#">Payment option</a></li>
+            <li><a href="#">Payment option</a></li>
+            <li><a href="#">Money problems</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Online bookings</h4>
+          <ul>
+            <li><a href="#">Seat</a></li>
+            <li><a href="#">Time</a></li>
+            <li><a href="#">Day</a></li>
+            <li><a href="#">City</a></li>
+
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Find us</h4>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </footer>
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
